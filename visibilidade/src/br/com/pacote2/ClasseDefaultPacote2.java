@@ -1,21 +1,28 @@
 package br.com.pacote2;
 
 
+import br.com.pacote1.ClassePublicPacote1;
 
 class ClasseDefaultPacote2 {
-	int i;
-	public int j;//atributo inteiro public
-	private int l;//atributo  inteiro private
-	protected int m;//atributo inteiro protected
 	
-	public ClasseDefaultPacote2() {
-		// TODO Auto-generated constructor stub
+	ClassePublicPacote1 a;
+	//ClasseDefaultPacote1 b;
+	ClassePublicPacote2 c;
+	ClasseDefaultPacote2 d;
+	
+	
+	void defaultMetodo() {
 	}
-	void DefaultTeste() {}
-	public void Teste1() {}
-	private void Teste2() {}
-	protected void Teste3() {}
-	
+
+	public void publicMetodo() {
+	}
+
+	private void privateMetodo() {
+	}
+
+	protected void protectesMetodo() {
+	}
+
 	
 	
 	

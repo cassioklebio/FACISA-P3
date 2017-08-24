@@ -1,23 +1,25 @@
 package br.com.pacote1;
 
+import br.com.pacote2.ClassePublicPacote2;
 
 class ClasseDefaultPacote1 {
-    int a;
-	public int b;//atributo inteiro public
-	private int c;//atributo  inteiro private
-	protected int d;//atributo inteiro protected
 	
+	ClassePublicPacote1 a;
+	ClasseDefaultPacote1 b;
+	ClassePublicPacote2 c;
+	//ClasseDefaultPacote2 d;
 	
-	
-	
-	void DefaultTeste() {}
-	public void Teste1() {}
-	private void Teste2() {}
-	protected void Teste3() {}
 
-	
-	
-	
-	
+	void defaultMetodo() {
+	}
+
+	public void publicMetodo() {
+	}
+
+	private void privateMetodo() {
+	}
+
+	protected void protectesMetodo() {
+	}
 
 }
