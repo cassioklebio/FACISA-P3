@@ -1,22 +1,21 @@
 package br.com.facisa.p3.bubllesort;
-
-
-
+/**
+ * 
+ * 
+ * @author cassio
+ *
+ */
 public class BublleSort {
 	
 	private int tamanho;
 	private int inseridos = 0;
 	private int[] ordenacao;
 	
-	
-	
 	public BublleSort(int tamanho) {
 		
 		ordenacao = new int[tamanho];
 	}
-
-
-
+	
 	public void adiciona(int valor) {
 		ordenacao[inseridos] = valor;
 		inseridos++;		
@@ -29,6 +28,7 @@ public class BublleSort {
 		}
 		System.out.print("]");
 	}
+	
 	public void imprimiOrdenado() {
 		System.out.print("[");
 		for(int i = 0; i<ordenacao.length;i++) {
@@ -51,16 +51,8 @@ public class BublleSort {
 			 if(controle){
 			 break;
 			 }
-			 
-			 }
+		}
 		
 	}
-	
-	
-	
-	
-	
-	
-	
 	
 }
