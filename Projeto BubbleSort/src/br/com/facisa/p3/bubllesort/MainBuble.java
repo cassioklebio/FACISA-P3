@@ -13,7 +13,7 @@ public class MainBuble {
 		for(int i = 0; i<tamanho;i++) {
 		System.out.print("Digite o numero ");
 		int valor = ler.nextInt();
-		buble.adicionar(valor);
+		buble.adiciona(valor);
 		}
 		buble.imprimiDesordenado();
 		

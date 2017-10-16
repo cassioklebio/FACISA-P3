@@ -1,6 +1,6 @@
 package br.com.facisa.p3.bubllesort;
 
-import java.util.Scanner;
+
 
 public class BublleSort {
 	
@@ -17,7 +17,7 @@ public class BublleSort {
 
 
 
-	public void adicionar(int valor) {
+	public void adiciona(int valor) {
 		ordenacao[inseridos] = valor;
 		inseridos++;		
 	}
